@@ -1,0 +1,9 @@
+Allow from all
+RewriteEngine on
+RewriteRule ^(.*)-(.*)-(.*)-(.*)-(.*)-(.*).html$ index.php?r=$1/$2&$3=$4&$5=$6
+RewriteRule ^(.*)-(.*)-(.*)-(.*).html$ index.php?r=$1/$2&$3=$4
+RewriteRule ^(.*)-(.*).html$ index.php?r=$1/$2
+
+#RewriteEngine on
+#RewriteCond %{HTTP_REFERER} !^http://localhost:84/.*$ [NC]
+#RewriteRule .*.(gif|jpg|jpeg|bmp|png)$ http://localhost:84/css/admin/img/nopic.nopic [R,NC]
