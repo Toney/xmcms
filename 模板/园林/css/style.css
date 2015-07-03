@@ -1,0 +1,208 @@
+body {
+    background: none repeat scroll 0 0 #E2EBF1;
+    font-family: Tahoma,"Microsoft Yahei","Simsun" !important;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    color:#00232F;
+}
+/*标签重定义*/
+label{font-weight: bold;}
+textarea{resize: none;}
+ul{list-style: none;margin: 0px;padding: 0px;}
+a{cursor: pointer;text-decoration: none;color:#436522;}
+strong{font-size: 14px;}
+p{margin: 0px;}
+hr{border-top:1px solid #CCEBFF;border-left: none;border-right: none;border-bottom: none;}
+h1,h2,h3,h4,h5,h6{margin: 0px;padding:0px;}
+
+/*小标记*/
+.plr{padding-left: 10px;padding-right: 10px;}
+.fl{float: left;}
+.fr{float: right;}
+.mgt_6{margin-top: 6px;}
+.tac{text-align: center;}
+.tal{text-align: left;}
+.tar{text-align: right;}
+.bg_white{background-color: #FFFFFF;}
+.twoem{text-indent: 2em;}
+.p10{padding: 10px;}
+.p20{padding:20px;}
+.title{border-bottom:1px solid #8ED447;height: 50px;line-height: 50px;margin: 0px;overflow: hidden;}
+.mgb_10{margin-bottom: 10px;}
+.lightgray{color:#999;}
+div.content{line-height:30px;overflow: hidden;}
+.red{color: red;}
+.green{color: green;}
+.p40{padding:40px;}
+.dotted{border-bottom: 1px dotted #00232F;}
+.odd{background-color:#CCEBFF;}
+.clr{clear: both;}
+.pdb{padding-bottom: 20px;}
+.pdl{padding-left: 20px;}
+.wp100{width: 100%;}
+.pgt{padding-top: 20px;}
+
+/*头部主要窗体*/
+#topbanner{
+    height:100px;
+}
+
+
+/*头部导航栏*/
+#topnav{background-color:#436522;color: #FFFFFF;font-weight: bold;font-size: 14px;}
+#topnav a{color:#FFFFFF;}
+
+/*通用*/
+input.ui,select.ui,textarea.ui{
+    padding: 4px 4px 5px 4px;
+    border-top: 1px solid #b3b3b3;
+    border-left: 1px solid #b3b3b3;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 12px;
+    font-family: Tahoma,"Microsoft Yahei","Simsun" !important;
+    margin: 4px 0;
+}
+.box{padding: 0.2em;background-color: #FFFFFF;}
+.box .head{padding:8px;font-weight: bold;font-size: 14px;border: none !important;}
+.box .itemlist ul{padding-bottom: 8px;padding-top: 8px;}
+.box .itemlist ul li{padding: 8px;overflow: hidden;}
+.box .itemlist ul li.current{background-color:#8ED447;}
+.box .itemlist ul li.current a{color: #FFFFFF;}
+.h100{height: 100%;}
+.mgb{margin-bottom: 20px;}
+.mgt{margin-top: 20px;}
+.mgb_50{margin-bottom: 50px;}
+.bdnone{border: none;}
+.info{line-height: 30px;}
+
+/*logo*/
+#logo{display: inline-block;margin-top: 15px;}
+/*用户操作导航*/
+#topbar{
+    font-weight: bold;
+    font-size: 14px;
+    height: 50px;
+    line-height:50px;
+}
+#topbar ul li a{display: block;padding-left: 15px;padding-right: 15px;letter-spacing: 5px;color: #FFFFFF;}
+#topbar ul li a:hover{
+    background: #FFFFFF;
+    font-weight: bold;
+    color: #436522;
+}
+#topbar ul li a.current{
+    background: #FFFFFF;
+    font-weight: bold;
+    color: #436522;
+}
+#topbar ul li.line {
+    border-left: 1px solid #436522;
+    border-right: 1px solid #7A9B59;
+    height: 50px;
+    padding: 0;
+    width: 0;
+}
+
+#topbar ul li{float: left;}
+
+/*案例展示*/
+#case .caseitem{
+    height: 250px;
+    border:1px solid #436522;
+    background-color: #FFFFFF;
+}
+
+/*面包屑*/
+.crumb{
+    background-color: #8ED447;
+    color: #ffffff;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.crumb a{
+    color:#FFFFFF;
+}
+
+
+/*脚注*/
+#foot{background-color:#669933;color: #ffffff;}
+#foot .item a{color: #FFFFFF;}
+#foot .item li{line-height:30px;height:30px;}
+
+/*文章页面*/
+.content_foot{border-top: 1px solid #CCEBFF;
+    height: 50px;
+    line-height: 50px;
+}
+
+/*页面的分页操作*/
+#pager{text-align: center;}
+#pager ul.yiiPager a{
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #436522;
+}
+#pager ul.yiiPager .selected a{
+    background-color:#436522;
+}
+#pager ul.yiiPager{line-height: 50px;height: 50px;}
+
+
+
+/*页面表单*/
+table.form {
+    width:100%;
+    border-collapse:collapse;
+}
+table.form td {
+    vertical-align:top;
+    padding:5px;
+}
+table.form td.col1{
+    width: 20%;
+    vertical-align:top;
+}
+table.form label {
+    font-weight:bold;
+}
+table.form input.control, table.form select.control, table.form textarea.control{
+    padding: 5px 5px 6px 5px;
+    border-top: 1px solid #b3b3b3;
+    border-left: 1px solid #b3b3b3;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    width: 30%;
+    font-size: 12px;
+    font-family: Tahoma,"Microsoft Yahei","Simsun" !important;
+    display: block;
+}
+input.readonly,select.readonly,textarea.readonly{
+    background-color: #f0f0f0;
+}
+textarea{resize: none;}
+
+/*jqueryvalidationEngine验证样式调整*/
+.formErrorContent{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/*案例展示的图片描述*/
+.captain{
+    height:40px;
+    line-height: 40px;
+    margin-top: -40px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    background-color: #000000;
+    filter:alpha(opacity=40);
+    opacity:0.4;
+    overflow: hidden;
+}
+.captain a{color:#FFFFFF;}
