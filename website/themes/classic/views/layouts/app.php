@@ -170,6 +170,8 @@ $APPDESCRIPTION =  Yii::app()->getParams()['APPDESCRIPTION'];
 </div>
 <script type="text/javascript">
     function changeLang(lang){
+        alert("功能已经实现，可以定制！");
+        return;
         $.get('index.php?r=site/changelang',{lang:lang},function(res){
             if(res == true){
                 window.location.reload();
@@ -181,6 +183,6 @@ $APPDESCRIPTION =  Yii::app()->getParams()['APPDESCRIPTION'];
 <!--[if IE 7]>
 <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/font-awesome/css/font-awesome-ie7.min.css">
 <![endif]-->
-<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/ui/global.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/global.js"></script>
 </body>
 </html>

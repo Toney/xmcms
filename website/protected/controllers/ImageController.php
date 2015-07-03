@@ -30,6 +30,7 @@ class ImageController extends AppController
 
         $criteria = new CDbCriteria();
         $criteria->addCondition('infotype="image"','AND');
+        $criteria->addCondition('t.lang = "'.$this->lang.'" ','AND');
         $criteria->join = " LEFT JOIN xm_module module ON module.module_id=t.module_id  LEFT JOIN xm_article_image image ON image.article_id=t.module_id ";
         $criteria->addCondition('module.iden like "%'.$id.'%" ','AND');
         $criteria->order = "article_id desc ,seq desc,top desc,recommend desc,createtime desc";

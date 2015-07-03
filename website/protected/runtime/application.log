@@ -10296,3 +10296,103 @@ Stack trace:
 REQUEST_URI=/index.php?r=admin
 in F:\station\php\xmcms\website\protected\components\AppAdminController.php (15)
 in F:\station\php\xmcms\website\index.php (67)
+2015/07/03 09:58:13 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image.lang' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `xm_article` `t`  LEFT JOIN xm_module module ON module.module_id=t.module_id  LEFT JOIN xm_article_image image ON image.article_id=t.module_id  WHERE ((infotype="image") AND (module.iden like "%6%" )) AND (image.lang = en_us ).
+in F:\station\php\xmcms\website\protected\controllers\ImageController.php (37)
+in F:\station\php\xmcms\website\index.php (67)
+2015/07/03 09:58:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image.lang' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `xm_article` `t`  LEFT JOIN xm_module module ON module.module_id=t.module_id  LEFT JOIN xm_article_image image ON image.article_id=t.module_id  WHERE ((infotype="image") AND (module.iden like "%6%" )) AND (image.lang = en_us )' in F:\station\php\xmcms\website\framework\db\CDbCommand.php:541
+Stack trace:
+#0 F:\station\php\xmcms\website\framework\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 F:\station\php\xmcms\website\framework\db\ar\CActiveRecord.php(1546): CDbCommand->queryScalar()
+#2 F:\station\php\xmcms\website\protected\controllers\ImageController.php(37): CActiveRecord->count(Object(CDbCriteria))
+#3 F:\station\php\xmcms\website\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#4 F:\station\php\xmcms\website\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 F:\station\php\xmcms\website\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 F:\station\php\xmcms\website\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\station\php\xmcms\website\framework\web\CWebApplication.php(282): CController->run('index')
+#8 F:\station\php\xmcms\website\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#9 F:\station\php\xmcms\website\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 F:\station\php\xmcms\website\index.php(67): CApplication->run()
+#11 {main}
+REQUEST_URI=/image-index-id-6.html
+HTTP_REFERER=http://localhost:83/product-index-id-4.html
+---
+2015/07/03 09:59:48 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'en_us' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `xm_article` `t`  LEFT JOIN xm_module module ON module.module_id=t.module_id  LEFT JOIN xm_article_image image ON image.article_id=t.module_id  WHERE ((infotype="image") AND (module.iden like "%6%" )) AND (t.lang = en_us ).
+in F:\station\php\xmcms\website\protected\controllers\ImageController.php (37)
+in F:\station\php\xmcms\website\index.php (67)
+2015/07/03 09:59:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'en_us' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `xm_article` `t`  LEFT JOIN xm_module module ON module.module_id=t.module_id  LEFT JOIN xm_article_image image ON image.article_id=t.module_id  WHERE ((infotype="image") AND (module.iden like "%6%" )) AND (t.lang = en_us )' in F:\station\php\xmcms\website\framework\db\CDbCommand.php:541
+Stack trace:
+#0 F:\station\php\xmcms\website\framework\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 F:\station\php\xmcms\website\framework\db\ar\CActiveRecord.php(1546): CDbCommand->queryScalar()
+#2 F:\station\php\xmcms\website\protected\controllers\ImageController.php(37): CActiveRecord->count(Object(CDbCriteria))
+#3 F:\station\php\xmcms\website\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#4 F:\station\php\xmcms\website\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 F:\station\php\xmcms\website\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 F:\station\php\xmcms\website\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\station\php\xmcms\website\framework\web\CWebApplication.php(282): CController->run('index')
+#8 F:\station\php\xmcms\website\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#9 F:\station\php\xmcms\website\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 F:\station\php\xmcms\website\index.php(67): CApplication->run()
+#11 {main}
+REQUEST_URI=/image-index-id-6.html
+HTTP_REFERER=http://localhost:83/product-index-id-4.html
+---
+2015/07/03 10:00:05 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'lang' in where clause is ambiguous. The SQL statement executed was: SELECT COUNT(*) FROM `xm_article` `t`  LEFT JOIN xm_module module ON module.module_id=t.module_id  LEFT JOIN xm_article_image image ON image.article_id=t.module_id  WHERE ((infotype="image") AND (module.iden like "%6%" )) AND (lang = en_us ).
+in F:\station\php\xmcms\website\protected\controllers\ImageController.php (37)
+in F:\station\php\xmcms\website\index.php (67)
+2015/07/03 10:00:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'lang' in where clause is ambiguous. The SQL statement executed was: SELECT COUNT(*) FROM `xm_article` `t`  LEFT JOIN xm_module module ON module.module_id=t.module_id  LEFT JOIN xm_article_image image ON image.article_id=t.module_id  WHERE ((infotype="image") AND (module.iden like "%6%" )) AND (lang = en_us )' in F:\station\php\xmcms\website\framework\db\CDbCommand.php:541
+Stack trace:
+#0 F:\station\php\xmcms\website\framework\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 F:\station\php\xmcms\website\framework\db\ar\CActiveRecord.php(1546): CDbCommand->queryScalar()
+#2 F:\station\php\xmcms\website\protected\controllers\ImageController.php(37): CActiveRecord->count(Object(CDbCriteria))
+#3 F:\station\php\xmcms\website\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#4 F:\station\php\xmcms\website\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 F:\station\php\xmcms\website\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 F:\station\php\xmcms\website\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\station\php\xmcms\website\framework\web\CWebApplication.php(282): CController->run('index')
+#8 F:\station\php\xmcms\website\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#9 F:\station\php\xmcms\website\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 F:\station\php\xmcms\website\index.php(67): CApplication->run()
+#11 {main}
+REQUEST_URI=/image-index-id-6.html
+HTTP_REFERER=http://localhost:83/product-index-id-4.html
+---
+2015/07/03 10:00:30 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'lang' in where clause is ambiguous. The SQL statement executed was: SELECT COUNT(*) FROM `xm_article` `t`  LEFT JOIN xm_module module ON module.module_id=t.module_id  LEFT JOIN xm_article_image image ON image.article_id=t.module_id  WHERE ((infotype="image") AND (lang = en_us )) AND (module.iden like "%6%" ).
+in F:\station\php\xmcms\website\protected\controllers\ImageController.php (37)
+in F:\station\php\xmcms\website\index.php (67)
+2015/07/03 10:00:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'lang' in where clause is ambiguous. The SQL statement executed was: SELECT COUNT(*) FROM `xm_article` `t`  LEFT JOIN xm_module module ON module.module_id=t.module_id  LEFT JOIN xm_article_image image ON image.article_id=t.module_id  WHERE ((infotype="image") AND (lang = en_us )) AND (module.iden like "%6%" )' in F:\station\php\xmcms\website\framework\db\CDbCommand.php:541
+Stack trace:
+#0 F:\station\php\xmcms\website\framework\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 F:\station\php\xmcms\website\framework\db\ar\CActiveRecord.php(1546): CDbCommand->queryScalar()
+#2 F:\station\php\xmcms\website\protected\controllers\ImageController.php(37): CActiveRecord->count(Object(CDbCriteria))
+#3 F:\station\php\xmcms\website\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#4 F:\station\php\xmcms\website\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 F:\station\php\xmcms\website\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 F:\station\php\xmcms\website\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\station\php\xmcms\website\framework\web\CWebApplication.php(282): CController->run('index')
+#8 F:\station\php\xmcms\website\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#9 F:\station\php\xmcms\website\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 F:\station\php\xmcms\website\index.php(67): CApplication->run()
+#11 {main}
+REQUEST_URI=/image-index-id-6.html
+HTTP_REFERER=http://localhost:83/product-index-id-4.html
+---
+2015/07/03 10:02:02 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'lang' in where clause is ambiguous. The SQL statement executed was: SELECT COUNT(*) FROM `xm_article` `t`  LEFT JOIN xm_module module ON module.module_id=t.module_id  LEFT JOIN xm_article_image image ON image.article_id=t.module_id  WHERE ((infotype="image") AND (lang = "en_us" )) AND (module.iden like "%6%" ).
+in F:\station\php\xmcms\website\protected\controllers\ImageController.php (37)
+in F:\station\php\xmcms\website\index.php (67)
+2015/07/03 10:02:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'lang' in where clause is ambiguous. The SQL statement executed was: SELECT COUNT(*) FROM `xm_article` `t`  LEFT JOIN xm_module module ON module.module_id=t.module_id  LEFT JOIN xm_article_image image ON image.article_id=t.module_id  WHERE ((infotype="image") AND (lang = "en_us" )) AND (module.iden like "%6%" )' in F:\station\php\xmcms\website\framework\db\CDbCommand.php:541
+Stack trace:
+#0 F:\station\php\xmcms\website\framework\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 F:\station\php\xmcms\website\framework\db\ar\CActiveRecord.php(1546): CDbCommand->queryScalar()
+#2 F:\station\php\xmcms\website\protected\controllers\ImageController.php(37): CActiveRecord->count(Object(CDbCriteria))
+#3 F:\station\php\xmcms\website\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#4 F:\station\php\xmcms\website\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 F:\station\php\xmcms\website\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 F:\station\php\xmcms\website\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\station\php\xmcms\website\framework\web\CWebApplication.php(282): CController->run('index')
+#8 F:\station\php\xmcms\website\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#9 F:\station\php\xmcms\website\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 F:\station\php\xmcms\website\index.php(67): CApplication->run()
+#11 {main}
+REQUEST_URI=/image-index-id-6.html
+HTTP_REFERER=http://localhost:83/product-index-id-4.html
+---
