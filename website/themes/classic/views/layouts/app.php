@@ -146,8 +146,14 @@ $APPDESCRIPTION =  Yii::app()->getParams()['APPDESCRIPTION'];
             </div>
         </div>
         <div class="grid_2 " >
-            &nbsp;
+            <div class="item  tac">
+                <ul>
+                    <li><strong>后台管理</strong></li>
+                    <li><a href="index.php?r=admin">管理员登入</a></li>
+                </ul>
+            </div>
         </div>
+
 
         <div class="grid_8" >
             <div class="item tar">
@@ -164,8 +170,6 @@ $APPDESCRIPTION =  Yii::app()->getParams()['APPDESCRIPTION'];
 </div>
 <script type="text/javascript">
     function changeLang(lang){
-        alert("演示系统不展示中英文切换功能，该功能需要定制！");
-        return;
         $.get('index.php?r=site/changelang',{lang:lang},function(res){
             if(res == true){
                 window.location.reload();
