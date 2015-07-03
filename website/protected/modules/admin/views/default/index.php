@@ -12,15 +12,22 @@
     <style>
         html {overflow: hidden;}
         body{
-            background: none repeat scroll 0 0 #eee;
+            background:#7abfe0;
             color: #333;
             font-family: Tahoma,"Microsoft Yahei","Simsun" !important;
             font-size: 12px;
             margin: 0;
             padding: 0;
         }
-        .div_login{
-            padding-top:60px;
+        #tophead{
+            background:#FFFFFF;
+        }
+        table.form tr td{
+            border: none !important;
+        }
+        #login{
+            padding:20px;
+            color:#FFFFFF;
         }
         label{
             font-weight: bold;
@@ -31,11 +38,11 @@
             margin-top:20px;
         }
         table.form {
+            width: 100%;
             border-collapse:collapse;
         }
 
         table.form td {
-            vertical-align: top;
             padding:5px;
         }
         table.form td.col1{
@@ -56,8 +63,8 @@
             font-family: Tahoma,"Microsoft Yahei","Simsun" !important;
             display: block;
         }
-        .w200{
-            width: 200px;
+        .ipt{
+            width:80px;
         }
         .red{
             color: red;
@@ -69,127 +76,71 @@
             text-align: right;
         }
         .tac{text-align: center;}
-        #site_info{
-            width: 100%;
-            bottom: 0px;
-            position:absolute;
-            display: block;
-            background: none repeat scroll 0 0 #f5f5f5;
-
-        }
-        #site_info p {
-            padding-left: 20px;
-            line-height: 45px;
-            margin: 0px;
-        }
         a {
             color: #428bca;
             font-weight:bold;
             text-decoration: none;
             cursor: pointer;
         }
-        .formErrorContent{
-            margin-top:10px;
-            margin-bottom:10px;
-        }
+
     </style>
 </head>
 <body>
-<div class=" mgb">
-    <ul class="nav main">
-        <li><a href="http://www.x-mai.com">POWER BY XMCMS</a></li>
-        <li class="fr"><a href="http://bbs.x-mai.com">论坛</a></li>
-        <li class="fr"><a href="http://www.x-mai.com">帮助</a></li>
-    </ul>
+
+<div id="tophead">
+    <div class="tac mgb" >
+        <img style="margin-top:200px;margin-bottom: 20px;" src="css/admin/img/xmcms.png" />
+    </div>
 </div>
-<div class="container_16 div_login" >
-    <div class="grid_5"><br></div>
-    <div class="grid_6 ">
-        <div class="tac"><img src="css/admin/img/xmcms.png" /></div>
-        <div class="div_form">
+
+<div class="container_12" >
+    <div class="grid_2 mgb">
+        &nbsp;<br>
+    </div>
+    <div class="grid_8 mgb ">
+        <div id="login">
             <form id="form_login" name="form_login" onsubmit="return false;">
                 <table class="form">
                     <tbody>
-                    <tr>
-                        <td class="col1">
-                            <label>后台语言</label>
-                        </td>
-                        <td><select name="bk_lang" class="control w200" onchange="changeBkLang(this.value)">
-                                <?php
-                                foreach($backlangs as $lang){
-                                    if($lang['isdefault'] == 1){
-                                        ?>
-                                        <option selected="selected" value="<?php echo $lang['lang']; ?>"><?php echo $lang['name']; ?></option>
-                                        <?php
-                                    }else{
-                                        ?>
-                                        <option value="<?php echo $lang['lang']; ?>"><?php echo $lang['name']; ?></option>
-                                        <?php
-                                    }
-                                }
-                                ?>
-                        </select></td>
-                    </tr>
-                    <tr>
-                        <td class="col1">
-<!--                            --><?php //echo Yii::t('admin/default/index','用户名'); ?><!--<br>-->
-<!--                            --><?php //echo Yii::app()->sourceLanguage; ?><!--<br>-->
-<!--                            --><?php //echo Yii::app()->language; ?>
-                            <label>用户名</label><span class="red">*</span>
-                        </td>
-                        <td><input type="text" class=" validate[required] control w200" name="loginname" value="administrator"  autocomplete="off" /></td>
-                    </tr>
-                    <tr>
-                        <td class="col1 ">
-                            <label>密码</label><span class="red">*</span>
-                        </td>
-                        <td class="">
-                            <input type="password" class=" validate[required] control w200" name="loginpass" value="123456" autocomplete="off"  />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col1 ">
-
-                        </td>
-                        <td class="">
-                            <?php $this->widget('CCaptcha',Array('showRefreshButton'=>false,'clickableImage'=>true,'id'=>'captchimage','captchaAction'=>'captcha_login')); ?>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="col1 " style="vertical-align: top;">
-                            <label>验证码</label><span class="red">*</span>
-                        </td>
-                        <td class="">
-                            <input type="text" class=" validate[required] control w200" name="logincaptcha" id="logincaptcha"  />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td class="tar">
-                            <button onclick="login()" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary" ><span class="ui-button-icon-primary ui-icon ui-icon-check"></span><span class="ui-button-text">登入</span></button>
-                            <button onclick="cancelTo()" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary" ><span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span><span class="ui-button-text">取消</span></button>
-                        </td>
+                    <td>
+                        <!--                            --><?php //echo Yii::t('admin/default/index','用户名'); ?><!--<br>-->
+                        <!--                            --><?php //echo Yii::app()->sourceLanguage; ?><!--<br>-->
+                        <!--                            --><?php //echo Yii::app()->language; ?>
+                        <label>用户名</label><span class="red">*</span>
+                    </td>
+                    <td><input type="text" class=" validate[required] control ipt" name="loginname" value="administrator"  autocomplete="off" /></td>
+                    <td>
+                        <label>密码</label><span class="red">*</span>
+                    </td>
+                    <td >
+                        <input type="password" class=" validate[required] control ipt" name="loginpass" value="" autocomplete="off"  />
+                    </td>
+                    <td>
+                        <?php $this->widget('CCaptcha',Array('showRefreshButton'=>false,'clickableImage'=>true,'id'=>'captchimage','captchaAction'=>'captcha_login','imageOptions'=>Array('height'=>28))); ?>
+                    </td>
+                    <td><input type="text" class=" validate[required] control " style="width: 40px;" name="logincaptcha" id="logincaptcha"  /></td>
+                    <td>
+                        <button onclick="login()" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary" ><span class="ui-button-icon-primary ui-icon ui-icon-check"></span><span class="ui-button-text">登入</span></button>
+                    </td>
                     </tr>
                     </tbody>
                 </table>
             </form>
         </div>
+
+        <div style="color: #FFFFFF;" class="tac"><label>小麦网&nbsp;-&nbsp;Powered by x-mai.com</label></div>
+
     </div>
-    <div class="grid_5"><br></div>
+    <div class="grid_2 mgb">
+        &nbsp;<br>
+    </div>
 </div>
-<div id="site_info" class="mgt">
-    <p>
-        Copyright <a href="http://www.x-mai.com">X-MAI.COM</a>. All Rights Reserved.
-    </p>
-</div>
+
 <script src="<?php echo Yii::app()->request->baseUrl ?>/css/admin/jqueryui/jquery-ui-1.10.0.custom.min.js"></script>
 <link rel="stylesheet" type="text/css"  href="<?php echo Yii::app()->request->baseUrl ?>/css/admin/validationEngine/css/validationEngine.jquery.css"/>
 <script src="<?php echo Yii::app()->request->baseUrl ?>/css/admin/validationEngine/jquery.validationEngine.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl ?>/css/admin/validationEngine/jquery.validationEngine-zh_CN.js"></script>
 <script>
-    $(function(){
-        $("#form_login").validationEngine({promptPosition:'inline',scroll:false});
-    });
     function login(){
         if ($('#form_login').validationEngine('validate')) {
             $.post('index.php?r=admin/default/login',{
