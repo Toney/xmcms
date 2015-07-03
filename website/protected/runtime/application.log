@@ -10282,3 +10282,17 @@ Stack trace:
 REQUEST_URI=/index.php?r=member/shoppingcart
 HTTP_REFERER=http://localhost:83/index.php?r=member/index
 ---
+2015/07/03 09:26:54 [error] [php] PDO::__construct():  (F:\station\php\xmcms\website\framework\db\CDbConnection.php:423)
+Stack trace:
+#0 F:\station\php\xmcms\website\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 F:\station\php\xmcms\website\framework\db\CDbConnection.php(308): CDbConnection->setActive()
+#2 F:\station\php\xmcms\website\framework\base\CModule.php(387): CDbConnection->init()
+#3 F:\station\php\xmcms\website\framework\base\CModule.php(103): CWebApplication->getComponent()
+#4 F:\station\php\xmcms\website\protected\components\AppAdminController.php(15): CWebApplication->__get()
+#5 F:\station\php\xmcms\website\framework\web\CWebApplication.php(281): DefaultController->init()
+#6 F:\station\php\xmcms\website\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 F:\station\php\xmcms\website\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 F:\station\php\xmcms\website\index.php(67): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin
+in F:\station\php\xmcms\website\protected\components\AppAdminController.php (15)
+in F:\station\php\xmcms\website\index.php (67)
