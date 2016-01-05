@@ -1,8 +1,8 @@
 <?php
-$APPCONFIG = Yii::app()->getParams()['APPCONFIG'];
-$TITLE =  Yii::app()->getParams()['TITLE'];
-$APPKEYWORDS =  Yii::app()->getParams()['APPKEYWORDS'];
-$APPDESCRIPTION =  Yii::app()->getParams()['APPDESCRIPTION'];
+$APPCONFIG = Yii::app()->getParams()->APPCONFIG;
+$TITLE =  Yii::app()->getParams()->TITLE;
+$APPKEYWORDS =  isset(Yii::app()->getParams()->APPKEYWORDS)?Yii::app()->getParams()->APPKEYWORDS:"";
+$APPDESCRIPTION =  isset(Yii::app()->getParams()->APPDESCRIPTION)?Yii::app()->getParams()->APPDESCRIPTION:"";
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,7 +23,7 @@ $APPDESCRIPTION =  Yii::app()->getParams()['APPDESCRIPTION'];
     <div class="container_12 ">
         <div class="grid_12 " style="line-height:50px;">
             <span class="fl"><i class="icon-volume-up"></i>
-                <?php $NOTICE = Yii::app()->getParams()['NOTICE']; ?>
+                <?php $NOTICE = Yii::app()->getParams()->NOTICE; ?>
                 <a href="<?php echo $this->getUrl('article',"view",Array('id'=>$NOTICE['article_id'])); ?>">
                     <?php
                     echo $NOTICE['title']; ?>
@@ -31,7 +31,7 @@ $APPDESCRIPTION =  Yii::app()->getParams()['APPDESCRIPTION'];
             </span>
             <span class="fr">
                 <?php
-                $LANGALL = Yii::app()->getParams()['LANGALL'];
+                $LANGALL = Yii::app()->getParams()->LANGALL;
                 foreach($LANGALL as $lang){
                     $mark = $lang['mark'];
                     ?>
@@ -89,7 +89,7 @@ $APPDESCRIPTION =  Yii::app()->getParams()['APPDESCRIPTION'];
                     ?>
 
                     <?php
-                    $MODULES = Yii::app()->getParams()['MODULES'];
+                    $MODULES = Yii::app()->getParams()->MODULES;
                     foreach($MODULES as $m){
                         $top = $this->topid==$m['module_id']?"class='current'":"";
                         if($m['module']=='link'){
