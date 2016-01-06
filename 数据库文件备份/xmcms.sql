@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : 127.0.0.1
+Source Server         : localhost
 Source Server Version : 50616
-Source Host           : 127.0.0.1:3306
-Source Database       : xmcms
+Source Host           : localhost:3306
+Source Database       : website
 
 Target Server Type    : MYSQL
 Target Server Version : 50616
 File Encoding         : 65001
 
-Date: 2015-07-03 13:22:11
+Date: 2016-01-06 15:17:27
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -36,20 +36,11 @@ CREATE TABLE `xm_article` (
   `price` decimal(10,0) DEFAULT NULL,
   `cansale` tinyint(4) DEFAULT NULL,
   PRIMARY KEY (`article_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=114 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=114 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of xm_article
 -- ----------------------------
-INSERT INTO `xm_article` VALUES ('106', 'Apple/苹果 iPhone 5代智能手机无锁移动联通三网电信3G原装正品', '<p>\r\n	<img src=\"attached/image/product/20150123/20150123043052_44557.png\" alt=\"\" />\r\n</p>\r\n<p>\r\n	Apple/苹果 iphone 疑问解答：\r\n</p>\r\n<p>\r\n	1、在回答问题前，我要解释一下，Iphone 4S大部分都是在中国富士康生产的。意思就是说，有锁的和无锁的苹果4是出自同一个地方。请大家不要怀疑有锁机和无锁机是不是官方正版的机器。<br />\r\n&nbsp;&nbsp;\r\n</p>\r\n<p>\r\n	2、有锁机是指销售方捆绑了当地的运营商，只能使用这个运营商的服务。无锁版是指没有绑定运营商，可以使用任意国家运营商服务的版本。\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	3、有锁与无锁的区别：\r\n</p>\r\n<p>\r\n	有网络锁的机子使用国内的SIM卡，要解锁或者用卡贴手机才可以识别出SIM卡，唯一就是不可以随便升级，而且存手机号码前需要加86，比如要存这个15899755497那么在它前面需要加86（8615899755497）<br />\r\n无锁美版和港版，行货是一样的。机器没有区别的，用起来一样随便升级什么的都可以，二手就是要美版才便宜，港版，行货至少贵美版几百元。\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	4、行货(大陆版)、港版、美版无锁机、加拿大无锁机、英国无锁机、迪拜无锁机、韩国无锁机等等，这些都是无锁机，插卡即用，其他没有任何区别。不一样的只是销售地区不一样，价格不一样。苹果手机是全球机器，基本上是什么语言都有，只要设置一下就可以了）。<br />\r\n&nbsp;\r\n</p>\r\n<p>\r\n	&nbsp;5、问：有锁机和无锁机使用起来一样吗？\r\n</p>\r\n<p>\r\n	答：首先有锁机开机需要解锁（也就是用卡贴），无锁机插卡即用，其他都一样。不一样的是有锁机比无锁机的价格低了一大截。\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	6、有锁机可不可以越狱：\r\n</p>\r\n<p>\r\n	答：越狱和有锁，两者是没有关系的。越狱只和手机的版本有关。和有锁没有关系的。\r\n</p>', '2015-01-23', '0', '2', '15', 'zh_cn', '苹果智能手机', 'product', '0', '0', null, null, null);
-INSERT INTO `xm_article` VALUES ('107', ' Samsung/三星 GALAXY Note4 N910U单卡智能手机 货到付款包邮代发', '<p>\r\n	<img src=\"attached/image/product/20150123/20150123043840_39646.png\" alt=\"\" />\r\n</p>\r\n<p>\r\n	<br />\r\n</p>\r\n<p>\r\n	官网标配：原装电池1个/充电器/耳机线/数据线/说明书/包装盒单卡=1200元 &nbsp;双卡=1980元\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	套餐一：官网标配+原装电池+8G内存卡=单卡 &nbsp;1260元 =双卡 &nbsp; 2040元\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	套餐二：官网标配+原装电池+16G内存卡= 单卡 1320元 = 双卡 2100元 &nbsp;&nbsp;\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	套餐三：官网标配+原装电池+32G内存卡= &nbsp;单卡 1400元&nbsp; = &nbsp;双卡 2180元\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	赠送价值588元8重好礼：活动只限3天！亲，错过这村，就没这店了哦！赶紧抢购吧\r\n</p>\r\n<p>\r\n	惊喜1：送韩国精美皮套一个！\r\n</p>\r\n<p>\r\n	惊喜2： &nbsp;送香水充电宝！<br />\r\n惊喜3： &nbsp;送高清保护膜一张！<br />\r\n惊喜4：&nbsp;&nbsp;送电容笔一支！<br />\r\n惊喜5:&nbsp;&nbsp;&nbsp;果冻保护壳一个！\r\n</p>\r\n<p>\r\n	惊喜6： 送剪卡器一个！<br />\r\n惊喜7： 全场所有商品免邮费！<br />\r\n惊喜8：收货24小时内确认好评全5分返现30元\r\n</p>', '2015-01-23', '0', '2', '15', 'zh_cn', '三星', 'product', '0', '0', null, null, null);
-INSERT INTO `xm_article` VALUES ('108', '下载示例一', '下载示例一', '2015-01-23', '0', '2', '5', 'zh_cn', '下载示例', 'download', '0', '0', null, null, null);
-INSERT INTO `xm_article` VALUES ('109', '下载示例二', '下载示例二', '2015-01-23', '0', '2', '5', 'zh_cn', '下载示例', 'download', '0', '0', null, null, null);
-INSERT INTO `xm_article` VALUES ('110', '下载示例三', '下载示例三', '2015-01-23', '0', '2', '5', 'zh_cn', '下载示例', 'download', '0', '0', null, null, null);
-INSERT INTO `xm_article` VALUES ('111', '下载示例四', '下载示例四', '2015-01-23', '0', '2', '5', 'zh_cn', '下载示例', 'download', '0', '0', null, null, null);
-INSERT INTO `xm_article` VALUES ('112', '下载示例五', '下载示例五', '2015-01-23', '0', '2', '5', 'zh_cn', '下载示例', 'download', '0', '0', null, null, null);
-INSERT INTO `xm_article` VALUES ('113', ' 小麦CMS最终用户授权许可协议', '<h3>\r\n	GNU GPL\r\n</h3>\r\n<p>\r\n	GNU General Public Licence (GPL) 有可能是开源界最常用的许可模式。GPL  保证了所有开发者的权利，同时为使用者提供了足够的复制，分发，修改的权利：\r\n</p>\r\n<ul>\r\n	<li>\r\n		<strong>可自由复制</strong><br />\r\n你可以将软件复制到你的电脑，你客户的电脑，或者任何地方。复制份数没有任何限制。\r\n	</li>\r\n	<li>\r\n		<strong>可自由分发</strong><br />\r\n在你的网站提供下载，拷贝到U盘送人，或者将源代码打印出来从窗户扔出去（环保起见，请别这样做）。\r\n	</li>\r\n	<li>\r\n		<strong>可以用来盈利</strong><br />\r\n你可以在分发软件的时候收费，但你必须在收费前向你的客户提供该软件的 GNU GPL  许可协议，以便让他们知道，他们可以从别的渠道免费得到这份软件，以及你收费的理由。\r\n	</li>\r\n	<li>\r\n		<strong>可自由修改</strong><br />\r\n如果你想添加或删除某个功能，没问题，如果你想在别的项目中使用部分代码，也没问题，唯一的要求是，使用了这段代码的项目也必须使用 GPL 协议。\r\n	</li>\r\n</ul>\r\n<p>\r\n	需要注意的是，分发的时候，需要明确提供源代码和二进制文件，另外，用于某些程序的某些协议有一些问题和限制。使用 GPL  协议，你必须在源代码代码中包含相应信息，以及协议本身。\r\n</p>\r\n<br />', '2015-02-05', '0', '2', '26', 'zh_cn', ' 小麦CMS最终用户授权许可协议', 'article', '0', '0', null, null, null);
-INSERT INTO `xm_article` VALUES ('87', '案例一', '<p>\r\n	<img src=\"attached/image/image/20150123/20150123024639_70606.png\" alt=\"\" />\r\n</p>\r\n<p>\r\n	案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述\r\n</p>', '2015-01-23', '0', '2', '6', 'zh_cn', '案例', 'image', '0', '0', null, '1', '1');
 INSERT INTO `xm_article` VALUES ('68', 'PHP技术支持', '<div>\r\n	<p>\r\n		主要工作内容：\r\n	</p>\r\n	<div>\r\n		1. 负责小麦CMS企业网站管理系统技术支持；\r\n	</div>\r\n	<div>\r\n		2. 为客服人员提供技术支持；\r\n	</div>\r\n	<div>\r\n		&nbsp;\r\n	</div>\r\n	<div>\r\n		岗位要求：&nbsp;\r\n	</div>\r\n	<ol>\r\n		<li>\r\n			php能看懂且对PHP感兴趣，理解面向对象基本概念，写过一些小程序；\r\n		</li>\r\n		<li>\r\n			懂MySql数据库备份、恢复等基本操作，熟悉PHP环境的搭建和配置；\r\n		</li>\r\n		<li>\r\n			javascript能看懂，了解jquery等js框架；\r\n		</li>\r\n		<li>\r\n			html/css会写，懂linux的优先；\r\n		</li>\r\n		<li>\r\n			擅长网上查找资料解决问题；\r\n		</li>\r\n		<li>\r\n			有PHP作品（留言板，blog等）的优先；\r\n		</li>\r\n		<li>\r\n			做事要有耐心，性格谦和，学习能力强，能吃苦耐劳，愿意同公司共同发展。\r\n		</li>\r\n	</ol>\r\n	<div>\r\n		如果你对我们的职位感兴趣，且符合我们的基本要求，请将个人简历投递至458820281@qq.com，或者直接与我们取得联系！\r\n	</div>\r\n</div>', '2015-01-19', '0', '2', '7', 'zh_cn', 'PHP,招聘', 'job', '0', '0', null, null, null);
 INSERT INTO `xm_article` VALUES ('69', '网络销售', '<div>\r\n	<ol>\r\n		<li>\r\n			大专以上学历，一年以上网络销售经验；\r\n		</li>\r\n		<li>\r\n			熟悉网络推广，熟悉网站建设基本流程；\r\n		</li>\r\n		<li>\r\n			有网站制作相关工作经验者优先；\r\n		</li>\r\n		<li>\r\n			学习能力强，能吃苦耐劳，愿意同公司共同发展；\r\n		</li>\r\n		<li>\r\n			本岗位招收兼职，投递简历时请说明自己的工作意愿；\r\n		</li>\r\n	</ol>\r\n	<div>\r\n		如果你对我们的职位感兴趣，且符合我们的基本要求，请将个人简历投递至458820281@qq.com，或者直接与我们取得联系！\r\n	</div>\r\n</div>', '2015-01-19', '0', '2', '7', 'zh_cn', '网络销售', 'job', '0', '0', null, null, null);
 INSERT INTO `xm_article` VALUES ('70', '网页UI设计师', '<div>\r\n	<p>\r\n		主要工作内容：负责小麦CMS界面和公司网站的界面设计等，重视用户体验。\r\n	</p>\r\n	<div>\r\n		岗位要求：\r\n	</div>\r\n	<ol>\r\n		<li>\r\n			视觉设计、平面设计或美术相关专业，大专以上学历。\r\n		</li>\r\n		<li>\r\n			具有良好的创意设计能力及良好的色彩感，有较高的美术功底，较强的网页设计能力和整体布局感。\r\n		</li>\r\n		<li>\r\n			精通photoshop、Illustrator、Fireworks、Dreamweaver等图形设计工具中至少两种。\r\n		</li>\r\n		<li>\r\n			了解网页交互设计知识，对作品有不断追求完美的精神特质。\r\n		</li>\r\n		<li>\r\n			有网站UI设计同等职位工作经验、能提供过往作品者优先。\r\n		</li>\r\n	</ol>\r\n</div>', '2015-01-19', '0', '2', '7', 'zh_cn', '网页UI设计师', 'job', '0', '0', null, null, null);
@@ -69,6 +60,7 @@ INSERT INTO `xm_article` VALUES ('83', 'JAVA软件工程师', '<div>\r\n	工作�
 INSERT INTO `xm_article` VALUES ('84', '行政文员', '工作职责：<br />\r\n<br />\r\n1、根据办公室领导的要求，完成有关报告、文稿的起草、修改工作。完成打字、复印及传真等工作;<br />\r\n2、做好日常电话接待工作。完成行政办公会议的书面记录、整理;<br />\r\n3、完成各类文件的收集、整理、立卷、装订、归档等保管工作<br />\r\n<br />\r\n任职资格：<br />\r\n1、本科以上学历，旅游管理、工商管理专业者优先；<br />\r\n2、沟通和协调能力强，变通性能力强；<br />\r\n3、认可企业的核心价值观。<br />', '2015-01-22', '1', '2', '7', 'zh_cn', '行政文员', 'job', '0', '0', null, null, null);
 INSERT INTO `xm_article` VALUES ('85', '软件测试工程师', '职位要求：<br />\r\n1、计算机相关专业本科及以上学历，具备1年以上的软件测试工作经验。<br />\r\n2、熟悉软件开发流程，精通软件测试流程和方法，能独立编写测试计划、测试用例及测试报告。<br />\r\n3、熟悉手机端应用的测试，有相关工作经验的优先考虑。<br />\r\n4、熟悉至少一种流行的数据库系统的使用和管理，熟悉Oracle数据库的优先考虑。<br />\r\n5、熟悉SQL语句的编写<br />\r\n6、熟练使用一种以上主流自动化测试工具或性能测试工具的优先考虑。如QTP，loadRunner,jmeter等<br />\r\n7、熟悉Linux，Windows操作系统，J2EE相关环境，能够根据需求快速部署测试环境。<br />\r\n8、良好的发现问题的能力，良好的沟通能力和团队合作精神。<br />\r\n9、工作细心、耐心，具备较强的责任感及进取精神，能承担较大的工作压力。<br />\r\n<br />\r\n岗位职责：<br />\r\n1、编写测试用例、搭建测试环境、执行测试用例<br />\r\n2、Bug提交及回归测试', '2015-01-22', '1', '2', '7', 'zh_cn', '软件测试', 'job', '0', '0', null, null, null);
 INSERT INTO `xm_article` VALUES ('86', '数据库工程师', '职位描述：<br />\r\n1.数据库（Oracle，SqlServer，MySql）的管理、备份、同步，构筑和监控;<br />\r\n2.有相关数据库性能优化、迁移升级;<br />\r\n3.数据的清理、分类和整合工作;<br />\r\n4.能编写数据库脚本，配合开发工作;<br />\r\n<br />\r\n职位要求：<br />\r\n1.大专以上学历，2年以上相关工作经验；<br />\r\n2.深入了解数据库体系架构及数据库理论，精通数据库的各项技术，包括性能调优、备份恢复策略的制定与实施、故障诊断,安全漏洞检测及防御等；<br />\r\n3.精通Sql语句，能熟练编写/调试存储过程、函数、触发器，具备一定的Sql语句优化经验；', '2015-01-22', '1', '2', '7', 'zh_cn', '数据库工程师', 'job', '0', '0', null, null, null);
+INSERT INTO `xm_article` VALUES ('87', '案例一', '<p>\r\n	<img src=\"attached/image/image/20150123/20150123024639_70606.png\" alt=\"\" />\r\n</p>\r\n<p>\r\n	案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述\r\n</p>', '2015-01-23', '0', '2', '6', 'zh_cn', '案例', 'image', '0', '0', null, '1', '1');
 INSERT INTO `xm_article` VALUES ('88', '案例二', '<p>\r\n	<img src=\"attached/image/image/20150123/20150123024833_32156.png\" alt=\"\" />\r\n</p>\r\n<p>\r\n	案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述\r\n</p>', '2015-01-23', '0', '2', '6', 'zh_cn', '案例', 'image', '0', '0', null, '1', '1');
 INSERT INTO `xm_article` VALUES ('89', '案例三', '<p>\r\n	<img src=\"attached/image/image/20150123/20150123025003_13515.png\" alt=\"\" />\r\n</p>\r\n<p>\r\n	案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述\r\n</p>', '2015-01-23', '0', '2', '6', 'zh_cn', '案例', 'image', '0', '0', null, '1', '1');
 INSERT INTO `xm_article` VALUES ('90', '案例四', '<p>\r\n	<img src=\"attached/image/image/20150123/20150123025153_67109.png\" alt=\"\" />\r\n</p>\r\n<p>\r\n	案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述案例描述\r\n</p>', '2015-01-23', '0', '2', '6', 'zh_cn', '案例四', 'image', '0', '0', null, '1', '1');
@@ -87,6 +79,14 @@ INSERT INTO `xm_article` VALUES ('102', '四个问题让你了解什么是DCIM�
 INSERT INTO `xm_article` VALUES ('103', '7种DDoS黑客攻击技术方法的介绍', '<p>\r\n	以下的文章主要向大家讲述的是常用的DDoS黑客攻击技术方法，DDOS攻击是现在最常见的也是危害性最大的一种黑客攻击方式，下面就给大家简单介绍一下DDOS的七种攻击方式。\r\n</p>\r\n<p>\r\n	DDOS攻击是现在最常见的一种黑客攻击方式，下面就给大家简单介绍一下DDOS的七种攻击方式。\r\n</p>\r\n<p>\r\n	1.Synflood: 该攻击以多个随机的源主机地址向目的主机发送SYN包，而在收到目的主机的SYN \r\nACK后并不回应，这样，目的主机就为这些源主机建立了大量的连接队列，而且由于没有收到ACK一直维护着这些队列，造成了资源的大量消耗而不能向正常请\r\n求提供服务。\r\n</p>\r\n<p>\r\n	2.Smurf：该攻击向一个子网的广播地址发一个带有特定请求(如ICMP回应请求)的包，并且将源地址伪装成想要攻击的主机地址。子网上所有主机都回应广播包请求而向被攻击主机发包，使该主机受到攻击。\r\n</p>\r\n<p>\r\n	3.Land-based：攻击者将一个包的源地址和目的地址都设置为目标主机的地址，然后将该包通过IP欺骗的方式发送给被攻击主机，这种包可以造成被攻击主机因试图与自己建立连接而陷入死循环，从而很大程度地降低了系统性能。\r\n</p>\r\n<p>\r\n	4.Ping of \r\nDeath：根据TCP/IP的规范，一个包的长度最大为65536字节。尽管一个包的长度不能超过65536字节，但是一个包分成的多个片段的叠加却能\r\n做到。当一个主机收到了长度大于65536字节的包时，就是受到了Ping of Death攻击，该攻击会造成主机的宕机。\r\n</p>\r\n<p>\r\n	5.Teardrop：IP数据包在网络传递时，数据包可以分成更小的片段。攻击者可以通过发送两段(或者更多)数据包来实现TearDrop攻\r\n击。第一个包的偏移量为0，长度为N，第二个包的偏移量小于N。为了合并这些数据段，TCP/IP堆栈会分配超乎寻常的巨大资源，从而造成系统资源的缺乏\r\n甚至机器的重新启动。\r\n</p>\r\n<p>\r\n	6.PingSweep：使用ICMP Echo轮询多个主机。\r\n</p>\r\n<p>\r\n	7.Pingflood: 该攻击在短时间内向目的主机发送大量ping包，造成网络堵塞或主机资源耗尽。\r\n</p>', '2015-01-23', '0', '2', '13', 'zh_cn', 'DDoS黑客攻击技术', 'article', '0', '0', null, null, null);
 INSERT INTO `xm_article` VALUES ('104', 'Web应用开发方法', '熟练掌握Web应用开发方法，能系统化Web应用的开发全过程，提高开发效率和开发质量。\r\n<div>\r\n	&nbsp;\r\n</div>\r\n<div>\r\n	1. 易于掌握\r\n</div>\r\n<div>\r\n	开发方法的一个目的是为了减轻开发人员的工作量,所以应该具有易于掌握的特点,但这不应以牺牲表达能力为代价,即Web应用开发方法应该能对Web程\r\n序的各个方面进行全面详细的描述。为平衡表达能力和掌握难度,可采用的方法是封装细节,对那具有共性的细节进行抽象,以模式的方式提供选择,这样开发方法\r\n为开发者提供的是高层次的设计概念和方法,掩藏了细节,在不牺牲表达能力的基础上降低了掌握难度,但必要时设计者仍然可以对细节进行设计以满足特殊的情\r\n况。另外,设计方法应充分考虑用户已有的设计经验和技术。\r\n</div>\r\n<div>\r\n	&nbsp;\r\n</div>\r\n<div>\r\n	2. 对复杂系统建模的能力\r\n</div>\r\n<div>\r\n	Web应用的范围涵盖从简单的静态站点到动态交互的Web应用。近年来,Web应用发展迅速,特别地,当大量传统信息和数据库系统被移植到Web环境下,一种新型的Web应用程序出现了,这些程序利用Web平台支持和执行商业过程以及工作流,例如出租和预订服务,虚拟拍卖、在线保险等。成熟的Web应用开发方法应该能适用这种需求,这就需要有对商业过程、工作流进行建模的能力,并和Web系统设计的其他部分有机结合。\r\n</div>\r\n<div>\r\n	&nbsp;\r\n</div>\r\n<div>\r\n	&nbsp;\r\n</div>\r\n<div>\r\n	3. 表现层建模的能力\r\n</div>\r\n<div>\r\n	传统的设计方法一般不很重视界面设计,而和传统的软件系统相比,Web系统表现设计有自己的特点:(1)系统的很多高级功能体现在表现层,这需要提高\r\n界面的设计质量;(2)界面中包含着大量的多媒体信息;(3)Web设计方法一般不仅给设计人员使用,而且需要给美工、编辑等使用,他们更关心系统的表现\r\n设计。所以Web应用开发方法需要能针对这些特点对表现层建模。\r\n</div>\r\n<div>\r\n	&nbsp;\r\n</div>\r\n<div>\r\n	4. 系统定制的支持\r\n</div>\r\n<div>\r\n	Web系统成功与否主要依赖于用户的满意程度。成功的Web系统应该具有丰富的功能,易于使用的界面和定义良好的导航结构。而为了达到更高的用户满意\r\n度,一个主要的技术是通过个性化定制把合适的内容在合适的时间分发给合适的人。开发方法需要提供系统定制能力,这主要通过对用户的定义和描述来完成,其中\r\n包括对用户分组以及用户之间联系的处理。\r\n</div>\r\n<div>\r\n	&nbsp;\r\n</div>\r\n<div>\r\n	5. 模型集成和连通的能力\r\n</div>\r\n<div>\r\n	能够在较高的抽象层次上表达系统和资源是怎样集成的。一方面,在很多组织中,新开发的Web系统需要和以前存在的业务系统密切关联。这些业务系统可能\r\n在不同的平台和实现语言下开发。开发方法应该能支持和这些遗产系统无缝连接。另一方面,组件的集成大部分依赖于接口描述,开发方法应提供精确的和无二义的\r\n对组件接口建模和文档化的能力。最后,Web系统需要和大量的资源和信息服务等相联接,这些可能不局限于组织内部,开发方法应提供表达和存取机制。\r\n</div>\r\n<div>\r\n	&nbsp;\r\n</div>\r\n<div>\r\n	6. 自动生成能力\r\n</div>\r\n<div>\r\n	能否提供自动生成能力以及能力的大小是Web应用开发方法成熟度的一个重要衡量标准,理想的开发方法应能提供从模型描述到运行、配置代码的自动生成。\r\n</div>\r\n<div>\r\n	&nbsp;\r\n</div>\r\n<div>\r\n	7. 工具和文档支持\r\n</div>\r\n<div>\r\n	理想的工具应能支持在用户参与下,完成从需求确定到实现维护的整个开发过程。丰富的文档支持是设计者能否掌握开发方法的重要方面。可以说,工具和文档的支持能力是开发方法能否得到广泛应用的关键。\r\n</div>', '2015-01-23', '0', '2', '12', 'zh_cn', 'Web应用开发方法', 'article', '0', '0', null, null, null);
 INSERT INTO `xm_article` VALUES ('105', '平面设计', '岗位职责<br />\r\n1、负责公司产品外观的设计与开发；<br />\r\n2、负责公司新品的研发；<br />\r\n3、负责公司宣传画册和车身广告的设计与制作；<br />\r\n4、 协助销售部门制作PPT、产品演示版本等；<br />\r\n5、 对公司网站界面进行设计修改，协助进行网站更新及维护工作。<br />\r\n任职资格<br />\r\n1、 美术、平面设计相关专业，大学专科及以上学历，男性；<br />\r\n2、 有两年以上相关工作经验；<br />\r\n3、 熟练掌握Flash、Fireworks、Dreamweaver、Photoshop、Coreldraw等设计软件；<br />\r\n4、 热爱本职工作，工作细心、责任心强，创新能力强；', '2015-01-23', '0', '2', '7', 'zh_cn', '平面设计', 'job', '0', '0', null, null, null);
+INSERT INTO `xm_article` VALUES ('106', 'Apple/苹果 iPhone 5代智能手机无锁移动联通三网电信3G原装正品', '<p>\r\n	<img src=\"attached/image/product/20150123/20150123043052_44557.png\" alt=\"\" />\r\n</p>\r\n<p>\r\n	Apple/苹果 iphone 疑问解答：\r\n</p>\r\n<p>\r\n	1、在回答问题前，我要解释一下，Iphone 4S大部分都是在中国富士康生产的。意思就是说，有锁的和无锁的苹果4是出自同一个地方。请大家不要怀疑有锁机和无锁机是不是官方正版的机器。<br />\r\n&nbsp;&nbsp;\r\n</p>\r\n<p>\r\n	2、有锁机是指销售方捆绑了当地的运营商，只能使用这个运营商的服务。无锁版是指没有绑定运营商，可以使用任意国家运营商服务的版本。\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	3、有锁与无锁的区别：\r\n</p>\r\n<p>\r\n	有网络锁的机子使用国内的SIM卡，要解锁或者用卡贴手机才可以识别出SIM卡，唯一就是不可以随便升级，而且存手机号码前需要加86，比如要存这个15899755497那么在它前面需要加86（8615899755497）<br />\r\n无锁美版和港版，行货是一样的。机器没有区别的，用起来一样随便升级什么的都可以，二手就是要美版才便宜，港版，行货至少贵美版几百元。\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	4、行货(大陆版)、港版、美版无锁机、加拿大无锁机、英国无锁机、迪拜无锁机、韩国无锁机等等，这些都是无锁机，插卡即用，其他没有任何区别。不一样的只是销售地区不一样，价格不一样。苹果手机是全球机器，基本上是什么语言都有，只要设置一下就可以了）。<br />\r\n&nbsp;\r\n</p>\r\n<p>\r\n	&nbsp;5、问：有锁机和无锁机使用起来一样吗？\r\n</p>\r\n<p>\r\n	答：首先有锁机开机需要解锁（也就是用卡贴），无锁机插卡即用，其他都一样。不一样的是有锁机比无锁机的价格低了一大截。\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	6、有锁机可不可以越狱：\r\n</p>\r\n<p>\r\n	答：越狱和有锁，两者是没有关系的。越狱只和手机的版本有关。和有锁没有关系的。\r\n</p>', '2015-01-23', '0', '2', '15', 'zh_cn', '苹果智能手机', 'product', '0', '0', null, null, null);
+INSERT INTO `xm_article` VALUES ('107', ' Samsung/三星 GALAXY Note4 N910U单卡智能手机 货到付款包邮代发', '<p>\r\n	<img src=\"attached/image/product/20150123/20150123043840_39646.png\" alt=\"\" />\r\n</p>\r\n<p>\r\n	<br />\r\n</p>\r\n<p>\r\n	官网标配：原装电池1个/充电器/耳机线/数据线/说明书/包装盒单卡=1200元 &nbsp;双卡=1980元\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	套餐一：官网标配+原装电池+8G内存卡=单卡 &nbsp;1260元 =双卡 &nbsp; 2040元\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	套餐二：官网标配+原装电池+16G内存卡= 单卡 1320元 = 双卡 2100元 &nbsp;&nbsp;\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	套餐三：官网标配+原装电池+32G内存卡= &nbsp;单卡 1400元&nbsp; = &nbsp;双卡 2180元\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	赠送价值588元8重好礼：活动只限3天！亲，错过这村，就没这店了哦！赶紧抢购吧\r\n</p>\r\n<p>\r\n	惊喜1：送韩国精美皮套一个！\r\n</p>\r\n<p>\r\n	惊喜2： &nbsp;送香水充电宝！<br />\r\n惊喜3： &nbsp;送高清保护膜一张！<br />\r\n惊喜4：&nbsp;&nbsp;送电容笔一支！<br />\r\n惊喜5:&nbsp;&nbsp;&nbsp;果冻保护壳一个！\r\n</p>\r\n<p>\r\n	惊喜6： 送剪卡器一个！<br />\r\n惊喜7： 全场所有商品免邮费！<br />\r\n惊喜8：收货24小时内确认好评全5分返现30元\r\n</p>', '2015-01-23', '0', '2', '15', 'zh_cn', '三星', 'product', '0', '0', null, null, null);
+INSERT INTO `xm_article` VALUES ('108', '下载示例一', '下载示例一', '2015-01-23', '0', '2', '5', 'zh_cn', '下载示例', 'download', '0', '0', null, null, null);
+INSERT INTO `xm_article` VALUES ('109', '下载示例二', '下载示例二', '2015-01-23', '0', '2', '5', 'zh_cn', '下载示例', 'download', '0', '0', null, null, null);
+INSERT INTO `xm_article` VALUES ('110', '下载示例三', '下载示例三', '2015-01-23', '0', '2', '5', 'zh_cn', '下载示例', 'download', '0', '0', null, null, null);
+INSERT INTO `xm_article` VALUES ('111', '下载示例四', '下载示例四', '2015-01-23', '0', '2', '5', 'zh_cn', '下载示例', 'download', '0', '0', null, null, null);
+INSERT INTO `xm_article` VALUES ('112', '下载示例五', '下载示例五', '2015-01-23', '0', '2', '5', 'zh_cn', '下载示例', 'download', '0', '0', null, null, null);
+INSERT INTO `xm_article` VALUES ('113', ' 小麦CMS最终用户授权许可协议', '<h3>\r\n	GNU GPL\r\n</h3>\r\n<p>\r\n	GNU General Public Licence (GPL) 有可能是开源界最常用的许可模式。GPL  保证了所有开发者的权利，同时为使用者提供了足够的复制，分发，修改的权利：\r\n</p>\r\n<ul>\r\n	<li>\r\n		<strong>可自由复制</strong><br />\r\n你可以将软件复制到你的电脑，你客户的电脑，或者任何地方。复制份数没有任何限制。\r\n	</li>\r\n	<li>\r\n		<strong>可自由分发</strong><br />\r\n在你的网站提供下载，拷贝到U盘送人，或者将源代码打印出来从窗户扔出去（环保起见，请别这样做）。\r\n	</li>\r\n	<li>\r\n		<strong>可以用来盈利</strong><br />\r\n你可以在分发软件的时候收费，但你必须在收费前向你的客户提供该软件的 GNU GPL  许可协议，以便让他们知道，他们可以从别的渠道免费得到这份软件，以及你收费的理由。\r\n	</li>\r\n	<li>\r\n		<strong>可自由修改</strong><br />\r\n如果你想添加或删除某个功能，没问题，如果你想在别的项目中使用部分代码，也没问题，唯一的要求是，使用了这段代码的项目也必须使用 GPL 协议。\r\n	</li>\r\n</ul>\r\n<p>\r\n	需要注意的是，分发的时候，需要明确提供源代码和二进制文件，另外，用于某些程序的某些协议有一些问题和限制。使用 GPL  协议，你必须在源代码代码中包含相应信息，以及协议本身。\r\n</p>\r\n<br />', '2015-02-05', '0', '2', '26', 'zh_cn', ' 小麦CMS最终用户授权许可协议', 'article', '0', '0', null, null, null);
 
 -- ----------------------------
 -- Table structure for xm_article_image
@@ -96,7 +96,7 @@ CREATE TABLE `xm_article_image` (
   `article_id` int(11) NOT NULL AUTO_INCREMENT,
   `image` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`article_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=95 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=95 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of xm_article_image
@@ -120,7 +120,7 @@ CREATE TABLE `xm_article_job` (
   `pay` varchar(255) DEFAULT NULL,
   `employnum` int(11) DEFAULT NULL,
   PRIMARY KEY (`article_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=106 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=106 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of xm_article_job
@@ -163,7 +163,7 @@ CREATE TABLE `xm_config` (
   `keytype` varchar(255) DEFAULT NULL,
   `description` varchar(255) DEFAULT NULL,
   `lang` varchar(255) NOT NULL DEFAULT 'zh_cn'
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of xm_config
@@ -251,7 +251,7 @@ CREATE TABLE `xm_firendlink` (
   `haveread` tinyint(4) DEFAULT '0',
   `lang` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`friendlink_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of xm_firendlink
@@ -269,7 +269,7 @@ CREATE TABLE `xm_flash` (
   `lang` varchar(50) NOT NULL DEFAULT 'zh_cn',
   `name` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`flash_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of xm_flash
@@ -292,7 +292,7 @@ CREATE TABLE `xm_flashimages` (
   `title` varchar(255) DEFAULT NULL,
   `link` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`flashimage_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of xm_flashimages
@@ -315,7 +315,7 @@ CREATE TABLE `xm_fragment` (
   `title` varchar(50) DEFAULT NULL,
   `lang` varchar(50) NOT NULL DEFAULT 'zh_cn',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of xm_fragment
@@ -404,7 +404,7 @@ CREATE TABLE `xm_module` (
   `ishid` tinyint(4) NOT NULL DEFAULT '0',
   `content` text,
   PRIMARY KEY (`module_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=27 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of xm_module
@@ -443,7 +443,7 @@ CREATE TABLE `xm_online` (
   `msn` varchar(255) DEFAULT NULL,
   `lang` varchar(50) NOT NULL DEFAULT 'zh_cn',
   PRIMARY KEY (`online_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of xm_online
@@ -496,7 +496,7 @@ CREATE TABLE `xm_role` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `rolename` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of xm_role
@@ -685,7 +685,7 @@ CREATE TABLE `xm_user` (
   `resetpwdcode` varchar(255) DEFAULT NULL,
   `resetpwdcode_time` datetime DEFAULT NULL,
   PRIMARY KEY (`user_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of xm_user
