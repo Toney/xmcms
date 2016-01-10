@@ -198,6 +198,7 @@ class ModuleController extends AppAdminController {
             }else{
                 $this->connection->createCommand("update xm_module set target = '{$target}',seq ={$seq},category='{$category}' where module_id = {$module_id} ")->execute();
             }
+            $transaction->commit();
         }
         catch(Exception $e){
             $transaction->rollBack();
@@ -250,6 +251,7 @@ class ModuleController extends AppAdminController {
                 $this->connection->createCommand("delete from xm_article where module_id = ".$moduleid)->execute();
                 $this->connection->createCommand("delete from xm_module where module_id = ".$moduleid)->execute();
             }
+            $transaction->commit();
         }
         catch(Exception $e){
             $transaction->rollBack();
