@@ -1,6 +1,6 @@
 <?php
-$APPCONFIG = Yii::app()->getParams()['APPCONFIG'];
-$TITLE =  Yii::app()->getParams()['TITLE'];
+$APPCONFIG = isset(Yii::app()->getParams()->APPCONFIG)?Yii::app()->getParams()->APPCONFIG:"";
+$TITLE =  isset(Yii::app()->getParams()->TITLE)?Yii::app()->getParams()->TITLE:"";
 ?>
 <!DOCTYPE html>
 <html>
