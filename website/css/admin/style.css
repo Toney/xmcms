@@ -1,0 +1,154 @@
+.list tr{border-bottom: 1px solid #e6e6e6;height: 30px;}
+.module tr{border-bottom: 1px solid #e6e6e6;height: 30px;}
+.bar{line-height: 40px;height: 40px;background: #FFF;margin-bottom:20px;}
+.bar .item{margin-left: 10px;}
+.container{background: #FFF;}
+.container_in{padding: 10px;}
+.w50{width: 50px;}
+.w10{width: 10px;}
+.w200{width: 200px !important;}
+.w30{width: 30px;}
+.w40{width: 40px;}
+.w80{width: 80px;}
+.w160{width: 160px;}
+.w90{width: 90px;}
+.w618{width: 61.8% !important;}
+.red{color: red;}
+.green{color: green;}
+.block{display: block;}
+.hid{display: none;}
+.btnone{border-bottom: none !important;}
+.gray{color: #777;}
+.hover{background-color:#E2EDF1;}
+table.form {
+    width:100%;
+    border-collapse:collapse;
+}
+
+table.form td {
+    border-bottom: 1px solid #e6e6e6;
+    vertical-align: middle;
+    padding:5px;
+    line-height: 30px;
+}
+table.form td.col1{
+    width: 20%;
+    vertical-align: top;
+}
+table.form label {
+    font-weight:bold;
+}
+table.form input.control, table.form select.control, table.form textarea.control{
+    padding: 5px 5px 6px 5px;
+    border-top: 1px solid #b3b3b3;
+    border-left: 1px solid #b3b3b3;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    width: 30%;
+    font-size: 12px;
+    font-family: Tahoma,"Microsoft Yahei","Simsun" !important;
+    display: block;
+}
+input.readonly,select.readonly,textarea.readonly{
+    background-color: #f0f0f0;
+}
+input.ui,select.ui,textarea.ui{
+    padding: 3px 3px 4px;
+    border-top: 1px solid #b3b3b3;
+    border-left: 1px solid #b3b3b3;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 12px;
+    font-family: Tahoma,"Microsoft Yahei","Simsun" !important;
+}
+textarea{resize: none;}
+table.list{
+    width: 100%;
+    border-collapse: collapse;
+}
+table.list td.col1{
+    text-align: left;
+}
+table.list thead th{text-align: left;border: 1px solid #e6e6e6;padding:5px;line-height:30px;}
+table.list tr td{
+    border: 1px solid #e6e6e6;
+    padding: 5px;
+    line-height:30px;
+}
+/*module页面的特定的样式*/
+table.module{
+    width: 100%;
+    border-collapse: collapse;
+}
+table.module td.col1{
+    text-align: left;
+}
+table.module thead th{text-align: left;border: 1px solid #e6e6e6;padding:5px;line-height:30px;}
+table.module tr td{
+    border: 1px solid #e6e6e6;
+    padding: 5px;
+    line-height:30px;
+}
+.tr{
+    text-align: right;
+}
+.bg_white{background-color: #FFFFFF;}
+.w_10{
+    width:10px;
+}
+.w_30{
+    width:30px;
+}
+.w_40{
+    width:40px;
+}
+.w_50{
+    width:50px;
+}
+.w_80{
+    width: 80px;
+}
+.w_60{
+    width:60px;
+}
+.columnx{
+    margin-top: 10px;
+}
+
+/*列表操作工具栏*/
+.toolbar{
+    height:40px;
+    line-height: 40px;
+}
+/*jgrowl提示样式*/
+div.jGrowl div.warn {
+    background: #FFF6BF !important;
+    color: 	#5f5200;
+    border:1px solid #ffd324;
+}
+div.jGrowl div.error {
+    background: #FBE3E4 !important;
+    color: #860006;
+    border:1px solid #fbc2c4;
+}
+div.jGrowl div.success {
+    background: #E6EFC2 !important;
+    color: #4e6100;
+    border:1px solid #c6d880;
+}
+div.jGrowl div.notice {
+    background:#8FBDE0 !important;
+    color: #003863;
+    border:1px solid #6bacde;
+}
+/*页面的分页操作*/
+#pager{text-align: center;}
+#pager ul.yiiPager a{
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #0096c9;
+}
+#pager ul.yiiPager .selected a{
+    background-color:#84c2ea;
+}
+#pager ul.yiiPager{line-height: 50px;height: 50px;}

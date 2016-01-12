@@ -1,0 +1,87 @@
+/*
+-----------------------------------------------
+Grey Box Method - Layout CSS
+----------------------------------------------- */
+
+body {
+    background: none repeat scroll 0 0 #eee;
+    font-family: Tahoma,"Microsoft Yahei","Simsun" !important;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    color:#333;
+}
+
+.floatleft{float:left;}
+.floatright{float:right;}
+.fontwhite{color:#fff;}
+.small{font-size:9px;}
+.inline-ul li{display:inline; color:#fff;}
+.marginleft10{margin-left:10px;}
+.grey{color:#C2C2C2;}
+
+
+a {
+    color: #428bca;
+    font-weight:bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+}
+
+.sidemenu{
+background-color:#CFE3F3;
+}
+#branding_div{background:  #428bca;}
+#branding{
+    font-weight: normal;
+    margin-bottom: 0;
+    padding: 20px 10px 16px;
+    text-align: left;
+}
+#site_info{
+    background: none repeat scroll 0 0 #f5f5f5;
+    padding-left: 20px;
+}
+#site_info p {
+    line-height: 45px;
+    margin: 0px;
+}
+.mgt_10{
+    margin-top: 10px;
+}
+.mgb_10{
+    margin-bottom: 10px;
+}
+.mgb{
+    margin-bottom: 20px;
+}
+.mgt{
+    margin-top: 20px;
+}
+.mgr_10{
+    margin-right: 10px !important;
+}
+.mgl_20{
+    margin-left: 20px;
+}
+.mgl_50{
+    margin-left: 50px;
+}
+.mgl_10{
+    margin-left: 10px;
+}
+.mgl_5{
+    margin-left:5px;
+}
+.mgr_5{
+    margin-right:5px;
+}
+.inline-ul{
+    margin: 0px;
+    padding: 0px;
+}
+.fr{float: right !important;}
+.btn_small{padding: 1px 2px !important;}
+.formErrorContent{margin-top: 5px;}

@@ -1,0 +1,1 @@
+<div id="content" style="margin-right: 60px;margin-left: 60px;"><iframe style="width: 100%;height: 500px;" frameborder="none" src="<?php ?>/extra/ecoder/index.php"></iframe></div>

@@ -1,0 +1,1520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="c231406e-c229-46f9-bca1-1c7859c4cae7" name="Default" comment="自动安装修改，更新" />
+=======
+    <list default="true" id="c231406e-c229-46f9-bca1-1c7859c4cae7" name="Default" comment="WAP端功能开发完成">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+>>>>>>> zhujun
+    <ignored path="xmcms.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="xmcms" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/default/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.0" vertical-offset="6182" max-vertical-offset="6935">
+              <caret line="313" column="35" selection-start-line="313" selection-start-column="35" selection-end-line="313" selection-end-column="35" />
+=======
+            <state vertical-scroll-proportion="0.24314442" vertical-offset="399" max-vertical-offset="1311">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+>>>>>>> zhujun
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="456">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding>
+                <marker date="1425946727566" expanded="true" signature="90:175" placeholder="update xm_us..." />
+              </folding>
+=======
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="247">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+>>>>>>> zhujun
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.6202749" vertical-offset="114" max-vertical-offset="741">
+              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+=======
+            <state vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="171">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+>>>>>>> zhujun
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/article/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="209">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+=======
+            <state vertical-scroll-proportion="-14.928572" vertical-offset="456" max-vertical-offset="1520">
+              <caret line="46" column="161" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="161" />
+>>>>>>> zhujun
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/guide/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="912">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+=======
+            <state vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="437">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+>>>>>>> zhujun
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/image/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="817">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+=======
+            <state vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="418">
+              <caret line="3" column="129" selection-start-line="3" selection-start-column="129" selection-end-line="3" selection-end-column="129" />
+>>>>>>> zhujun
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/job/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="855">
+              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+=======
+            <state vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="418">
+              <caret line="3" column="129" selection-start-line="3" selection-start-column="129" selection-end-line="3" selection-end-column="129" />
+>>>>>>> zhujun
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wap.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/layouts/wap.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.0" vertical-offset="2167" max-vertical-offset="3078">
+              <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+=======
+            <state vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="513">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+>>>>>>> zhujun
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/module/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="4.892857" vertical-offset="194" max-vertical-offset="741">
+              <caret line="3" column="125" selection-start-line="3" selection-start-column="125" selection-end-line="3" selection-end-column="125" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/product/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="3800">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="32" />
+              <folding>
+                <marker date="1425693209993" expanded="true" signature="2703:2744" placeholder="insert into ..." />
+                <marker date="1425693209993" expanded="true" signature="3233:3272" placeholder="update :_tab..." />
+                <marker date="1425693209993" expanded="true" signature="3582:3615" placeholder="delete from ..." />
+              </folding>
+=======
+            <state vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="418">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding />
+>>>>>>> zhujun
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/css/admin/kindeditor/file_manager_json.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/ImageController.php" />
+        <option value="$PROJECT_DIR$/themes/classic/views/site/index.php" />
+        <option value="$PROJECT_DIR$/themes/classic/css/style.css" />
+        <option value="$PROJECT_DIR$/protected/controllers/GuideController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/ArticleController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/DownloadController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/ImageController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/JobController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/image/showedit.php" />
+        <option value="$PROJECT_DIR$/themes/classic/views/download/index.php" />
+        <option value="$PROJECT_DIR$/LICENSE.txt" />
+        <option value="$PROJECT_DIR$/install/savepwd.php" />
+        <option value="$PROJECT_DIR$/install/test.php" />
+        <option value="$PROJECT_DIR$/install/include/2.php" />
+        <option value="$PROJECT_DIR$/install/css/style.css" />
+        <option value="$PROJECT_DIR$/install/success.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/协议.txt" />
+        <option value="$PROJECT_DIR$/install/index.php" />
+        <option value="$PROJECT_DIR$/android.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/themes/classic/views/layouts/app.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/views/layouts/app.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/components/WapController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/controllers/DefaultController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/views/module/index.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/controllers/GuideController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/controllers/ModuleController.php" />
+        <option value="$PROJECT_DIR$/protected/components/AppController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/controllers/ArticleController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/views/layouts/wap.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/views/guide/index.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/views/product/index.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/views/article/index.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/controllers/DownloadController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/views/job/index.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/views/image/index.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/controllers/ImageController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/controllers/JobController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/views/article/view.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/views/download/view.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/views/image/view.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/views/job/view.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/views/product/view.php" />
+        <option value="$PROJECT_DIR$/protected/modules/wap/views/default/index.php" />
+        <option value="$PROJECT_DIR$/config/db.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1374" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="false" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xmcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xmcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xmcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xmcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xmcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="xmcms">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="xmcms">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="themes/classic">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="xmcms">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="themes/classic">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="xmcms">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="themes/classic">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="site">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="preferences.general" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="147" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="164" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="177" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="848" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="167" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="158" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="170" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="841" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\station\php\xmcms\protected\modules\wap\views\job" />
+      <recent name="F:\station\php\xmcms\protected\modules\wap\controllers" />
+      <recent name="F:\station\php\xmcms\protected\modules\wap\views\image" />
+      <recent name="F:\station\php\xmcms\protected\modules\wap\views\download" />
+      <recent name="F:\station\php\xmcms\protected\modules\wap\views\product" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <envs />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" myUseAcceleration="nothing" cleanupOnStartRun="true">
+    <configuration useDefault="false">C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c231406e-c229-46f9-bca1-1c7859c4cae7" name="Default" comment="" />
+      <created>1421380895707</created>
+      <option name="number" value="Default" />
+      <updated>1421380895707</updated>
+    </task>
+    <task id="LOCAL-00001" summary="初始化">
+      <created>1421844855106</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1421844855106</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初始化">
+      <created>1421910858943</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1421910858943</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2015.1.22">
+      <created>1421913625144</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1421913625144</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2015.1.22">
+      <created>1421925695181</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1421925695181</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2015.1.22">
+      <created>1421925704104</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1421925704104</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2015.1.22">
+      <created>1421983331237</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1421983331237</updated>
+    </task>
+    <task id="LOCAL-00007" summary="首页页面初始化">
+      <created>1421984557119</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1421984557119</updated>
+    </task>
+    <task id="LOCAL-00008" summary="首页页面初始化">
+      <created>1421995317283</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1421995317283</updated>
+    </task>
+    <task id="LOCAL-00009" summary="页面查询等基本完善">
+      <created>1422000624018</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1422000624018</updated>
+    </task>
+    <task id="LOCAL-00010" summary="页面查询等基本完善">
+      <created>1422003490648</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1422003490648</updated>
+    </task>
+    <task id="LOCAL-00011" summary="做一些基本的调整。">
+      <created>1422004521923</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1422004521923</updated>
+    </task>
+    <task id="LOCAL-00012" summary="MESSAGE相关">
+      <created>1422065129485</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1422065129485</updated>
+    </task>
+    <task id="LOCAL-00013" summary="MESSAGE相关">
+      <created>1422065448137</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1422065448137</updated>
+    </task>
+    <task id="LOCAL-00014" summary="MESSAGE相关">
+      <created>1422065569250</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1422065569250</updated>
+    </task>
+    <task id="LOCAL-00015" summary="MESSAGE相关">
+      <created>1422071968475</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1422071968475</updated>
+    </task>
+    <task id="LOCAL-00016" summary="MESSAGE相关">
+      <created>1422071980193</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1422071980193</updated>
+    </task>
+    <task id="LOCAL-00017" summary="将.IDEA去掉">
+      <created>1422231462876</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1422231462876</updated>
+    </task>
+    <task id="LOCAL-00018" summary="V3第一版本,更新。">
+      <created>1422237905946</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1422237905946</updated>
+    </task>
+    <task id="LOCAL-00019" summary="页面等部分BUG修改">
+      <created>1422243485014</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1422243485014</updated>
+    </task>
+    <task id="LOCAL-00020" summary="页面等部分BUG修改">
+      <created>1422341374224</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1422341374224</updated>
+    </task>
+    <task id="LOCAL-00021" summary="页面等部分BUG修改">
+      <created>1422436626138</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1422436626138</updated>
+    </task>
+    <task id="LOCAL-00022" summary="页面双语言设置">
+      <created>1423107509525</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1423107509525</updated>
+    </task>
+    <task id="LOCAL-00023" summary="页面双语言设置">
+      <created>1423112289483</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1423112289483</updated>
+    </task>
+    <task id="LOCAL-00024" summary="页面双语言设置">
+      <created>1423113083748</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1423113083748</updated>
+    </task>
+    <task id="LOCAL-00025" summary="页面双语言设置">
+      <created>1423113446137</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1423113446137</updated>
+    </task>
+    <task id="LOCAL-00026" summary="页面双语言设置">
+      <created>1423118285587</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1423118285587</updated>
+    </task>
+    <task id="LOCAL-00027" summary="META描述等设置">
+      <created>1423125548452</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1423125548452</updated>
+    </task>
+    <task id="LOCAL-00028" summary="META描述等设置">
+      <created>1423192964451</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1423192964451</updated>
+    </task>
+    <task id="LOCAL-00029" summary="META描述等设置">
+      <created>1423450479696</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1423450479696</updated>
+    </task>
+    <task id="LOCAL-00030" summary="GIT">
+      <created>1423452154395</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1423452154395</updated>
+    </task>
+    <task id="LOCAL-00031" summary="GIT">
+      <created>1423453638146</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1423453638146</updated>
+    </task>
+    <task id="LOCAL-00032" summary="GIT">
+      <created>1423453668214</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1423453668214</updated>
+    </task>
+    <task id="LOCAL-00033" summary="GIT">
+      <created>1423453954155</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1423453954155</updated>
+    </task>
+    <task id="LOCAL-00034" summary="GIT">
+      <created>1423458526590</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1423458526590</updated>
+    </task>
+    <task id="LOCAL-00035" summary="GIT">
+      <created>1423458557785</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1423458557785</updated>
+    </task>
+    <task id="LOCAL-00036" summary="系统基本部署">
+      <created>1423459439794</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1423459439794</updated>
+    </task>
+    <task id="LOCAL-00037" summary="系统基本部署">
+      <created>1423460100606</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1423460100606</updated>
+    </task>
+    <task id="LOCAL-00038" summary="系统基本部署">
+      <created>1423614685410</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1423614685410</updated>
+    </task>
+    <task id="LOCAL-00039" summary="系统基本部署">
+      <created>1423619419169</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1423619419169</updated>
+    </task>
+    <task id="LOCAL-00040" summary="系统基本部署">
+      <created>1423619442833</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1423619442833</updated>
+    </task>
+    <task id="LOCAL-00041" summary="系统基本部署">
+      <created>1423619537874</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1423619537874</updated>
+    </task>
+    <task id="LOCAL-00042" summary="系统基本部署">
+      <created>1423619571768</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1423619571768</updated>
+    </task>
+    <task id="LOCAL-00043" summary="使用协议">
+      <created>1423619701082</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1423619701082</updated>
+    </task>
+    <task id="LOCAL-00044" summary="使用协议">
+      <created>1423619797048</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1423619797048</updated>
+    </task>
+    <task id="LOCAL-00045" summary="使用协议">
+      <created>1423619807003</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1423619807003</updated>
+    </task>
+    <task id="LOCAL-00046" summary="使用协议">
+      <created>1423619904794</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1423619904794</updated>
+    </task>
+    <task id="LOCAL-00047" summary="使用协议">
+      <created>1423620298962</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1423620298962</updated>
+    </task>
+    <task id="LOCAL-00048" summary="系统安装调整">
+      <created>1425699917758</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1425699917758</updated>
+    </task>
+    <task id="LOCAL-00049" summary="系统安装调整,尚未调整完毕。">
+      <created>1425701812076</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1425701812076</updated>
+    </task>
+    <task id="LOCAL-00050" summary="sql">
+      <created>1425866188188</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1425866188188</updated>
+    </task>
+    <task id="LOCAL-00051" summary="sql">
+      <created>1425866218620</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1425866218620</updated>
+    </task>
+    <task id="LOCAL-00052" summary="sql">
+      <created>1425866430893</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1425866430893</updated>
+    </task>
+    <task id="LOCAL-00053" summary="sql">
+      <created>1425869039984</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1425869039984</updated>
+    </task>
+    <task id="LOCAL-00054" summary="test">
+      <created>1425870241676</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1425870241676</updated>
+    </task>
+    <task id="LOCAL-00055" summary="test">
+      <created>1425870283222</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1425870283223</updated>
+    </task>
+    <task id="LOCAL-00056" summary="自动安装修改，更新">
+      <created>1425953873111</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1425953873111</updated>
+    </task>
+    <task id="LOCAL-00057" summary="自动安装修改，更新">
+      <created>1425954744780</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1425954744780</updated>
+    </task>
+    <task id="LOCAL-00058" summary="自动安装修改，更新">
+      <created>1427169175209</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1427169175210</updated>
+    </task>
+    <task id="LOCAL-00059" summary="自动安装修改，更新">
+      <created>1427169235819</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1427169235819</updated>
+    </task>
+    <task id="LOCAL-00060" summary="自动安装修改，更新">
+      <created>1427169245906</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1427169245907</updated>
+    </task>
+    <task id="LOCAL-00061" summary="自动安装修改，更新">
+      <created>1427169371930</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1427169371930</updated>
+    </task>
+    <task id="LOCAL-00062" summary="自动安装修改，更新">
+      <created>1427175582340</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1427175582341</updated>
+    </task>
+    <task id="LOCAL-00063" summary="自动安装修改，更新">
+      <created>1427175614472</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1427175614472</updated>
+    </task>
+    <task id="LOCAL-00064" summary="自动安装修改，更新">
+      <created>1427182464281</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1427182464281</updated>
+    </task>
+    <task id="LOCAL-00065" summary="WAP端功能开发完成">
+      <created>1427267755233</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1427267755233</updated>
+    </task>
+    <task id="LOCAL-00066" summary="WAP端功能开发完成">
+      <created>1427269800709</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1427269800709</updated>
+    </task>
+    <task id="LOCAL-00067" summary="WAP端功能开发完成">
+      <created>1427269920489</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1427269920489</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1374" height="732" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23426062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810047" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32755905" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="初始化" />
+    <MESSAGE value="2015.1.22" />
+    <MESSAGE value="首页页面初始化" />
+    <MESSAGE value="页面查询等基本完善" />
+    <MESSAGE value="做一些基本的调整。" />
+    <MESSAGE value="MESSAGE相关" />
+    <MESSAGE value="将.IDEA去掉" />
+    <MESSAGE value="V3第一版本,更新。" />
+    <MESSAGE value="页面等部分BUG修改" />
+    <MESSAGE value="页面双语言设置" />
+    <MESSAGE value="META描述等设置" />
+    <MESSAGE value="GIT" />
+    <MESSAGE value="系统基本部署" />
+    <MESSAGE value="使用协议" />
+    <MESSAGE value="系统安装调整" />
+    <MESSAGE value="系统安装调整,尚未调整完毕。" />
+    <MESSAGE value="sql" />
+    <MESSAGE value="test" />
+    <MESSAGE value="自动安装修改，更新" />
+    <MESSAGE value="WAP端功能开发完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="WAP端功能开发完成" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/install/db/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="3800">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <marker date="1425693209993" expanded="true" signature="2703:2744" placeholder="insert into ..." />
+            <marker date="1425693209993" expanded="true" signature="3233:3272" placeholder="update :_tab..." />
+            <marker date="1425693209993" expanded="true" signature="3582:3615" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/classic/views/member/message_view.php">
+=======
+    <entry file="file://$PROJECT_DIR$/install/test.php">
+>>>>>>> zhujun
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="817">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/success.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="741">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="1083">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/none.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/协议.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.571428" vertical-offset="235" max-vertical-offset="6859">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/console.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.75" vertical-offset="238" max-vertical-offset="798">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="437">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="551">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.214286" vertical-offset="684" max-vertical-offset="1520">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.464286" vertical-offset="399" max-vertical-offset="2337">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/wap/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="597">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/WapModule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="646">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/AppAdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="1767">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <marker date="1425693211749" expanded="true" signature="-1:-1" placeholder="select * fro..xm_lang..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/classic/views/include/info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26713532" vertical-offset="0" max-vertical-offset="893">
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.535714" vertical-offset="627" max-vertical-offset="2014">
+          <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/classic/views/layouts/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.0357144" vertical-offset="171" max-vertical-offset="3496">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.464286" vertical-offset="627" max-vertical-offset="4921">
+          <caret line="44" column="47" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="47" />
+          <folding>
+            <marker date="1427168863026" expanded="true" signature="-1:-1" placeholder="select * fro..xm_user..." />
+            <marker date="1427168863026" expanded="true" signature="-1:-1" placeholder="update xm_us..." />
+            <marker date="1427168863026" expanded="true" signature="-1:-1" placeholder="select * fro..xm_user..." />
+            <marker date="1427168863026" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1427168863026" expanded="true" signature="-1:-1" placeholder="select count..xm_user..." />
+            <marker date="1427168863026" expanded="true" signature="-1:-1" placeholder="update xm_us..." />
+            <marker date="1427168863026" expanded="true" signature="-1:-1" placeholder="select * fro..xm_config..." />
+            <marker date="1427168863026" expanded="true" signature="-1:-1" placeholder="select * fro..xm_config..." />
+            <marker date="1427168863026" expanded="true" signature="-1:-1" placeholder="select * fro..xm_user..." />
+            <marker date="1427168863026" expanded="true" signature="-1:-1" placeholder="update xm_us..." />
+            <marker date="1427168863026" expanded="true" signature="-1:-1" placeholder="update xm_us..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/controllers/GuideController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="361">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/controllers/ModuleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="399">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.178572" vertical-offset="570" max-vertical-offset="2394">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <folding>
+            <marker date="1425693212536" expanded="true" signature="-1:-1" placeholder="select * fro..xm_module..." />
+            <marker date="1425693212536" expanded="true" signature="-1:-1" placeholder="select * fro..xm_article..." />
+            <marker date="1425693212536" expanded="true" signature="-1:-1" placeholder="select * fro..xm_module..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="8.392858" vertical-offset="4073" max-vertical-offset="8949">
+          <caret line="202" column="24" selection-start-line="202" selection-start-column="24" selection-end-line="202" selection-end-column="24" />
+          <folding>
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select * fro..xm_lang..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select * fro..xm_config..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..xm_article..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select * fro..xm_fragment..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select * fro..xm_article..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select * fro..xm_article..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="SELECT artic..xm_article..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select * fro..xm_article..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select *,(se..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select count..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select *,(se..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select count..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select *,(se..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select count..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select *,(se..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select count..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select *,(se..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select count..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select * fro..xm_article..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select * fro..xm_article..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select * fro..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select * fro..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select *,(se..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select count..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select *,(se..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select count..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select *,(se..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select count..xm_module..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..xm_group..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select * fro..xm_article..." />
+            <marker date="1427264154576" expanded="true" signature="-1:-1" placeholder="select * fro..xm_article..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/controllers/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.785714" vertical-offset="105" max-vertical-offset="665">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/controllers/ArticleController.php">
+>>>>>>> zhujun
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.607143" vertical-offset="276" max-vertical-offset="893">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/wap/themes/wap/jquery.mobile.icons.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/classic/views/product/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.22619048" vertical-offset="0" max-vertical-offset="12502">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+=======
+        <state vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="1729">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+>>>>>>> zhujun
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1349">
+          <caret line="18" column="126" selection-start-line="18" selection-start-column="126" selection-end-line="18" selection-end-column="126" />
+=======
+        <state vertical-scroll-proportion="-11.178572" vertical-offset="10" max-vertical-offset="684">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+>>>>>>> zhujun
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/classic/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.285714" vertical-offset="2354" max-vertical-offset="5491">
+          <caret line="142" column="95" selection-start-line="142" selection-start-column="95" selection-end-line="142" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/classic/views/product/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-15.571428" vertical-offset="951" max-vertical-offset="1520">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="1520">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+>>>>>>> zhujun
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/controllers/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="4047">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="-13.571428" vertical-offset="76" max-vertical-offset="893">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+          <folding />
+>>>>>>> zhujun
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/product/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="1596">
+          <caret line="3" column="129" selection-start-line="3" selection-start-column="129" selection-end-line="3" selection-end-column="129" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/download/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1520">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/job/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.1948718" vertical-offset="0" max-vertical-offset="585">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="-14.25" vertical-offset="798" max-vertical-offset="1520">
+          <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+          <folding />
+>>>>>>> zhujun
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/image/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-4.94" vertical-offset="0" max-vertical-offset="12179">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+=======
+        <state vertical-scroll-proportion="-16.285715" vertical-offset="798" max-vertical-offset="1596">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+>>>>>>> zhujun
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/controllers/ImageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="39368">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+=======
+        <state vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="893">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding />
+>>>>>>> zhujun
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/controllers/JobController.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3477">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+=======
+        <state vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="893">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+>>>>>>> zhujun
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/controllers/DownloadController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.785714" vertical-offset="162" max-vertical-offset="893">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/article/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12179">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="418">
+          <caret line="3" column="129" selection-start-line="3" selection-start-column="129" selection-end-line="3" selection-end-column="129" />
+          <folding />
+>>>>>>> zhujun
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/download/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="3800">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <marker date="1425693209993" expanded="true" signature="2703:2744" placeholder="insert into ..." />
+            <marker date="1425693209993" expanded="true" signature="3233:3272" placeholder="update :_tab..." />
+            <marker date="1425693209993" expanded="true" signature="3582:3615" placeholder="delete from ..." />
+          </folding>
+=======
+        <state vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="418">
+          <caret line="3" column="129" selection-start-line="3" selection-start-column="129" selection-end-line="3" selection-end-column="129" />
+          <folding />
+>>>>>>> zhujun
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/guide/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="209">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+=======
+        <state vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="437">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+>>>>>>> zhujun
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/image/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="1.5026362" vertical-offset="0" max-vertical-offset="1254">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+=======
+        <state vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="418">
+          <caret line="3" column="129" selection-start-line="3" selection-start-column="129" selection-end-line="3" selection-end-column="129" />
+          <folding />
+>>>>>>> zhujun
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/job/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="2167" max-vertical-offset="3078">
+          <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+=======
+        <state vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="418">
+          <caret line="3" column="129" selection-start-line="3" selection-start-column="129" selection-end-line="3" selection-end-column="129" />
+>>>>>>> zhujun
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/layouts/wap.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="855">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+=======
+        <state vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="513">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+>>>>>>> zhujun
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/module/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="456">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <marker date="1425946727566" expanded="true" signature="90:175" placeholder="update xm_us..." />
+          </folding>
+=======
+        <state vertical-scroll-proportion="4.892857" vertical-offset="194" max-vertical-offset="741">
+          <caret line="3" column="125" selection-start-line="3" selection-start-column="125" selection-end-line="3" selection-end-column="125" />
+          <folding />
+>>>>>>> zhujun
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/product/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="912">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+=======
+        <state vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="418">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+>>>>>>> zhujun
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/article/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="817">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="-14.928572" vertical-offset="456" max-vertical-offset="1520">
+          <caret line="46" column="161" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="161" />
+>>>>>>> zhujun
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="6182" max-vertical-offset="6935">
+          <caret line="313" column="35" selection-start-line="313" selection-start-column="35" selection-end-line="313" selection-end-column="35" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> zhujun
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="171">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/wap/views/default/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.6202749" vertical-offset="114" max-vertical-offset="741">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+=======
+        <state vertical-scroll-proportion="0.24314442" vertical-offset="399" max-vertical-offset="1311">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+>>>>>>> zhujun
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
